@@ -1,12 +1,11 @@
 # mongodb
 旨在说明mongodb在实际应用使用的场景
-* 包含:
-  - mongodb 部署安装
-  - mongodb 基本使用方式
+* 包含:f
+  - [mongodb快速上手](Mongodb快速上手.md)
+  - [Mongodb高级特性](Mongodb高级特性.md)
   - mongodb java
-  - mongodb 高级特性
-  - mongodb 索引原理
-  - mongodb 性能分析
-  - mongodb 备份与恢复
   - mongodb 分片
+  - mongodb 启动脚本配置
+  - mongodb 性能分析
   - mongodb 监控
+  - 常见问题列表
