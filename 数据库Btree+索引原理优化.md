@@ -21,7 +21,7 @@
 
 * 寻道时间(速度慢，费时)
 * 旋转时间(速度较快)
-* ![1545582803327](C:\Users\dell-pc\AppData\Roaming\Typora\typora-user-images\1545582803327.png)
+* ![1545582803327](images/1545582803327.png)
 
 https://baijiahao.baidu.com/s?id=1598412364458865169&wfr=spider&for=pc
 
@@ -70,7 +70,7 @@ https://baijiahao.baidu.com/s?id=1598412364458865169&wfr=spider&for=pc
   * 叶子节点不存储指针
   * 顺序访问指针，提高区间访问的性能
 
-![](D:\总结\images\20181223233844.png)
+![](images/20181223233844.png)
 
 https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
@@ -91,7 +91,7 @@ https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 索引文件和数据文件是分离的
 
-![](D:\总结\images\20181224002241.png)
+![](images/20181224002241.png)
 
 ### 聚集索引（`InnoDB`）
 
@@ -101,7 +101,7 @@ https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 * 必须有主键，并且推荐使用整型的自增主键（顺序存储）
 * 非主键索引结构叶子节点存储的是主键值(一致性和节省存储空间)
 
-![](D:\总结\images\20181224002837.png)
+![](images\20181224002837.png)
 
 [数据结构](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
@@ -109,7 +109,7 @@ https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 ### 多列索引（最左前缀原则）
 
-![1545583306247](C:\Users\dell-pc\AppData\Roaming\Typora\typora-user-images\1545583306247.png)
+![1545583306247](images\1545583306247.png)
 
 
 
