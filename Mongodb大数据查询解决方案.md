@@ -4,7 +4,7 @@
 
 Query在执行层的逻辑，其他模块的逻辑进行了精简：
 
-​	![](H:\工作使用\进行中\mongodb研究\images\mongodb运行路线.png)
+​	![](images\mongodb运行路线.png)
 
 
 
@@ -22,7 +22,7 @@ Query在执行层的逻辑，其他模块的逻辑进行了精简：
 
 ## **查询分析器**
 
-![](H:\工作使用\进行中\mongodb研究\images\mongodb查询缓存.png)
+![](images\mongodb查询缓存.png)
 
 
 
@@ -53,7 +53,7 @@ mongotop				// 读写性能
 
 计费话单条件查询**
 
-![](H:\工作使用\进行中\mongodb研究\images\条件查询高耗时.png)
+![](images\条件查询高耗时.png)
 
 **如上图所示:**
 
@@ -134,7 +134,7 @@ mongotop				// 读写性能
 
 
     <font color=red>**分词后:**</font>
-
+    
     ```json
     {
     	"_id" : ObjectId("5b23e627aeee1022a08b8e8b"),
@@ -183,11 +183,11 @@ mongotop				// 读写性能
 
 
 
-![1554205613082](C:\Users\focus\AppData\Roaming\Typora\typora-user-images\1554205613082.png)
+![1554205613082](images\1554205613082.png)
 
 **分词：**
 
-![1554205652942](C:\Users\focus\AppData\Roaming\Typora\typora-user-images\1554205652942.png)
+![1554205652942](images\1554205652942.png)
 
 
 
@@ -263,13 +263,13 @@ db.ucCallRecord.find({
 
 
 
-![1554205891853](C:\Users\focus\AppData\Roaming\Typora\typora-user-images\1554205891853.png)
+![1554205891853](images\1554205891853.png)
 
 
 
 **查询匹配越多**
 
-![1554205919158](C:\Users\focus\AppData\Roaming\Typora\typora-user-images\1554205919158.png)
+![1554205919158](images\1554205919158.png)
 
 
 
@@ -396,11 +396,11 @@ db.ucCallRecord.find({
 
 
 
-![1554273729930](C:\Users\focus\AppData\Roaming\Typora\typora-user-images\1554273729930.png)
+![1554273729930](images\1554273729930.png)
 
 **分词：**
 
-![1554273673405](C:\Users\focus\AppData\Roaming\Typora\typora-user-images\1554273673405.png)
+![1554273673405](images\1554273673405.png)
 
 
 
@@ -478,9 +478,9 @@ db.ucCallRecord.find({
 
 #### 查询结果分析
 
-![1554273788020](C:\Users\focus\AppData\Roaming\Typora\typora-user-images\1554273788020.png)
+![1554273788020](images\1554273788020.png)
 
-![1554273881985](C:\Users\focus\AppData\Roaming\Typora\typora-user-images\1554273881985.png)
+![1554273881985](images\1554273881985.png)
 
 #### 表结构修改小结
 
